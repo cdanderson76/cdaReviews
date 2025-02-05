@@ -8,7 +8,6 @@
   justify-content: space-around;
   align-items: center;
   font-family: sans-serif;
-  gap: 30px;
 }
 
 .container {
@@ -18,7 +17,7 @@
   width: 80%;
   height: 600px;
   border-radius: 6px;
-  margin-top: -20px;
+  margin-top: -40px;
   -webkit-box-shadow: 0px 3px 6px 3px #CFCFCF; 
   box-shadow: 0px 3px 6px 3px #CFCFCF;
   overflow: hidden;
@@ -39,8 +38,9 @@
   width: 7.5rem;
   height: 8.13rem;
   border: 0.13rem solid black;
-  position: absolute;
+  /* position: absolute; */
   top: 10rem;
+  margin-top: 40px;
   object-fit: cover;
   border-radius: 50%;
   border: 3px double black;
