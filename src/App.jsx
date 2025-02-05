@@ -49,10 +49,15 @@ function Card() {
       </div>
       <h1>{currIndex.name}</h1>
       <h2>{currIndex.job}</h2>
-      <div className="text-container">
+      <div className="button-container">
         <button className="left-arrow" onClick={subIndex}>⬅</button>
-        <button><img src={surprise} alt="" className="surprise" onClick={generateRandom}/></button>
+        <button><img src={surprise} alt="" 
+                     className="surprise" 
+                     onClick={generateRandom}/>
+        </button>
         <button className="right-arrow" onClick={addIndex}>➡</button>
+      </div>
+      <div className="text-container">
         <p>{currIndex.text}</p>
         <SliderIcons index={index}/>
       </div>
