@@ -73,7 +73,7 @@
 }
 
 .arrow {
-  font-size: 30px;
+  font-size: 40px;
 }
 
 .surprise {
@@ -109,14 +109,14 @@
 
 .button-container {
   display: flex;
-  width: 300px;
+  width: 200px;
   height: 100px;
   justify-content: space-around;
   align-items: center;
 }
 
 button {
-  background-color: rgb(84, 84, 167);
+  background-color: transparent;
   color: #FFFFFF;
   border: none;
   border-radius: 5px;
@@ -125,6 +125,5 @@ button {
 
 button:hover {
   cursor: pointer;
-  background-color: rgb(125, 125, 187);
 }
 
