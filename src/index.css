@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.canvas {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  font-family: sans-serif;
+  gap: 30px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+  min-width: 400px;
+  height: 700px;
+  border-radius: 6px;
+  margin-top: -20px;
+  -webkit-box-shadow: 0px 3px 6px 3px #CFCFCF; 
+  box-shadow: 0px 3px 6px 3px #CFCFCF;
+  overflow: hidden;
+}
+
+.separator {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 150px;
+  margin-bottom: 60px;
+  border-radius: 6px 6px 0 0;
+  border: 10px double white;
+  border-top: none;
+}
+
+.profile-pic {
+  width: 120px;
+  height: 130px;
+  border: 2px solid black;
+  position: absolute;
+  top: 160px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 3px double black;
+}
+
+.text-container {
+  width: 80%;
+  text-align: center;
+  margin-top: -20px;
+}
+
+.text-container p {
+  margin-top: 35px;
+  height: 150px;
+}
+
+.container h2 {
+  text-transform: capitalize;
+  text-align: center;
+}
+
+.container h3 {
+  margin-top: -5px;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.left-arrow {
+  font-size: 30px;
+  margin-right: 40px;
+  margin-top: 30px;
+}
+
+.right-arrow {
+  font-size: 30px;
+  margin-left: 40px;
+}
+
+.surprise {
+  width: 30px;
+  height: 30px;
+  padding: 5px;
+}
+
+.slider-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0 auto;
+  width: 90%;
+  height: 100px;
+}
+
+.slider-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  font-size: 12px;
+  -webkit-box-shadow: 0px 3px 6px 3px #CFCFCF; 
+  box-shadow: 0px 3px 6px 3px #CFCFCF;
+}
+
+.active {
+  background-color: black;
+}
+
+button {
+  background-color: rgb(84, 84, 167);
+  color: #FFFFFF;
+  border: none;
+  border-radius: 5px;
+  transition: 0.5s;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: rgb(125, 125, 187);
+}
+
