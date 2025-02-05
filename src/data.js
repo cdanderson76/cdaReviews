@@ -34,7 +34,7 @@ export const reviews = [
       job: 'senior dev',
       color: 'blue',
       image: person4,
-      text: 'Hello, I’m Tim Rodd, a machine learning engineer with a background in computer science. My journey into machine learning began after completing my degree. I was inspired by the incredible advancements in AI, and using Codecademy, I learned Python and specialized in machine learning with courses on TensorFlow and Scikit-Learn.',
+      text: 'Hello, I’m Tim Rodd, a machine learning engineer with a background in computer science. I was inspired by the incredible advancements in AI, and using Codecademy, I learned Python and specialized in machine learning with courses on TensorFlow and Scikit-Learn.',
     },
   ];
   
