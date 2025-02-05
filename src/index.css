@@ -16,8 +16,7 @@
   flex-direction: column;
   align-items: center;
   width: 80%;
-  /* min-width: 370px; */
-  height: 670px;
+  height: 600px;
   border-radius: 6px;
   margin-top: -20px;
   -webkit-box-shadow: 0px 3px 6px 3px #CFCFCF; 
@@ -72,13 +71,13 @@
 
 .left-arrow {
   font-size: 30px;
-  margin-right: 40px;
+  margin-right: 30px;
   margin-top: 30px;
 }
 
 .right-arrow {
   font-size: 30px;
-  margin-left: 40px;
+  margin-left: 30px;
 }
 
 .surprise {
