@@ -47,8 +47,8 @@ function Card() {
              alt={`profile pic of ${currIndex.name}`} 
              className='profile-pic'/>
       </div>
-      <h2>{currIndex.name}</h2>
-      <h3>{currIndex.job}</h3>
+      <h1>{currIndex.name}</h1>
+      <h2>{currIndex.job}</h2>
       <div className="text-container">
         <button className="left-arrow" onClick={subIndex}>⬅</button>
         <button><img src={surprise} alt="" className="surprise" onClick={generateRandom}/></button>
