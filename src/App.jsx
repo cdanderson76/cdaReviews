@@ -50,12 +50,12 @@ function Card() {
       <h1>{currIndex.name}</h1>
       <h2>{currIndex.job}</h2>
       <div className="button-container">
-        <button className="left-arrow" onClick={subIndex}>⬅</button>
+        <button className='arrow' onClick={subIndex}>⬅</button>
         <button><img src={surprise} alt="" 
                      className="surprise" 
                      onClick={generateRandom}/>
         </button>
-        <button className="right-arrow" onClick={addIndex}>➡</button>
+        <button className="arrow" onClick={addIndex}>➡</button>
       </div>
       <div className="text-container">
         <p>{currIndex.text}</p>
