@@ -48,6 +48,7 @@
 
 .text-container {
   width: 85%;
+  max-width: 900px;
   text-align: center;
   margin-top: -20px;
 }
