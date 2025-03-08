@@ -18,5 +18,5 @@ I needed to.
 
 <h2>What challenges did you encounter, and how did you overcome them?</h2>
 
-I had to understand the indexing in order to loop the data of each person (like when you get to the last/first person, and the data loops again).  It took me some time to get that understood, but I just used the console to log the 
+I had to understand the indexing in order to iterate through the data of each person (like when you get to the last/first person, and the data loops again).  It took me some time to get that understood, but I just used the console to log the 
 length of the data so that I knew where the data ended.
