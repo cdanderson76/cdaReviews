@@ -1,8 +1,15 @@
 <h1>Reviews</h1>
 
-This is a React challenge from the Udemy course of John Smilga.  In this project, I use indexing to cycle through data and render the content based on that data.
+This is a React challenge from the Udemy course of John Smilga.  In this project, I use indexing and event listeners to cycle through data and render the content based on that data.  This application has arrows in which you can cycle
+through each profile.  It also has a random generator button that selects any profile at random.
 
 ![Image](https://github.com/user-attachments/assets/17c43159-0a4d-4066-a9c5-a8b0fba9e837)
+
+<h2>Additional Features</h2>
+
+<p>Indexing icons at the bottom of the app to signify where each profile lies at each step</p>
+<p>Background color that changes with the profile of each individual</p>
+<p>Mobile and desktop responsiveness</p>
 
 <h2>What are you most proud of, and what would you do differently next time?</h2>
 
